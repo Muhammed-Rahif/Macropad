@@ -1,4 +1,4 @@
-import { openFile } from '../helpers/files';
+import { openFile } from '../../helpers/files';
 import './MenuBar.scss';
 
 function MenuBar() {
