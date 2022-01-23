@@ -145,7 +145,8 @@
       "release/app/dist"
     ],
     "setupFiles": [
-      "./.erb/scripts/check-build-exists.ts"
+      "./.erb/scripts/check-build-exists.ts",
+      "./.erb/scripts/setupTests.js"
     ],
     "transformIgnorePatterns": [
       "<rootDir>/node_modules/(?!screenfull)"
@@ -249,5 +250,6 @@
       }
     ],
     "singleQuote": true
-  }
+  },
+  "type": "module"
 }
