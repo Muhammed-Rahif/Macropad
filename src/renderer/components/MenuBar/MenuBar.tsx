@@ -4,7 +4,7 @@ import { dialog, BrowserWindow } from '@electron/remote';
 import { OpenDialogReturnValue } from 'electron';
 import fs from 'fs';
 import { useContext } from 'react';
-import { OpenFileContext } from 'renderer/contexts/OpenFile';
+import { OpenFileContext } from '../../contexts/OpenFile';
 import { acceptableFileExtentions } from '../../constants/files';
 import { EditorViewContext } from '../../contexts/EditorView';
 import { defaultEditorViewExtensions } from '../../helpers/editor';
